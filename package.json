@@ -1,0 +1,36 @@
+{
+  "name": "reciepeapp",
+  "version": "1.0.0",
+  "description": "Dynamic web app for recipe search and categorization implementing progressive web app features",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcompt/RecipeApp.git"
+  },
+  "keywords": [
+    "Recipe",
+    "Food-Search",
+    "Javascript",
+    "Angular",
+    "Node.js",
+    "Express"
+  ],
+  "author": "Ryan Compton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcompt/RecipeApp/issues"
+  },
+  "homepage": "https://github.com/rcompt/RecipeApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
