@@ -19,6 +19,10 @@ var options = {
 }
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(bodyParser.json({ type: 'application.vnd.api+json' }));
+//app.use(methodOverride());
+app.use(express.static(__dirname + '/public'))
 
 MongoClient.connect(db.url, function(err, client) {
   if(err) {
